@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>oldMy.space</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+    <div class="header">
+      <div style="display: block">
+       <img src="images/logo.png" width="250">
+       </div>
+        <!--<ul class="header-nav">
+            <li>Home</li>
+            <li>Browse</li>
+            <li>Search</li>
+            <li>Invite</li>
+            <li>Film</li>
+            <li>Mail</li>
+            <li>Blogs</li>
+            <li>Favorites</li>
+            <li>Forum</li>
+            <li>Groups</li>
+            <li>Events</li>
+            <li>Myspace TV</li>
+            <li>Music</li>
+            <li>Comedy</li>
+            <li>Classifieds</li>
+        </ul>-->
+    </div>
+    <div class="container">
+        <div class="column left">
+		</div>
+		<div class="column right">
+            <div class="highlight-section">
+                <span class="highlight-title">Search Users</span>
+                <div class="center">
+<p>Go to profile</p>
+<form onSubmit="return process();">
+Username <input type="text" name="url" id="url"> <input type="submit" value="search">
+</form>
+	</div>
+            </div>
+		</div>
+	
+<script>
+function process()
+{
+var url="index.html?profile=" + document.getElementById("url").value;
+location.href=url;
+return false;
+}
+</script>
+</body>
+</html>
