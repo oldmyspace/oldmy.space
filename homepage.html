@@ -36,9 +36,8 @@
 		</div>
 		<div class="column right">
             <div class="highlight-section">
-                <span class="highlight-title">Search Users</span>
+                <span class="highlight-title">Go To Profile</span>
                 <div class="center">
-<p>Go to profile</p>
 <form onSubmit="return process();">
 Username <input type="text" name="url" id="url"> <input type="submit" value="search">
 </form>
@@ -49,7 +48,7 @@ Username <input type="text" name="url" id="url"> <input type="submit" value="sea
 <script>
 function process()
 {
-var url="index.html?profile=" + document.getElementById("url").value;
+var url="profile.html?user=" + document.getElementById("url").value;
 location.href=url;
 return false;
 }
