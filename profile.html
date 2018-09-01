@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="theme.css">
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    	<script>
+	var profile = getQueryVariable("user");
+	document.body.appendChild(document.createElement('script')).src='profile/' + profile + '.js';
+	</script>
 </head>
 <body>
     <div class="header">
