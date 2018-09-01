@@ -12,6 +12,7 @@
 	var profile = getQueryVariable("user");
 	document.body.appendChild(document.createElement('script')).src='profile/' + profile + '.js';
 	</script>
+	<script>var profile = getQueryVariable("user");</script>
 	<script src="profile/autofill.js"></script>
 </head>
 <body>
@@ -189,7 +190,6 @@
 
 	</script>
 	<script>
-	var profile = getQueryVariable("user");
 	document.body.appendChild(document.createElement('script')).src='profile/' + profile + '.js';
 		if (profile) {
   // value is truthy
