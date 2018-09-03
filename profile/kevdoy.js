@@ -7,6 +7,9 @@ var city = "Buckley";
 var state = "WA";
 var country = "United States";
 var mood = "angsty";
+
+
+var friendnumber = "";
 var friend1 = "kevdoy";
 var friend2 = "tom";
 var friend3 = "rangerawesome";
@@ -16,6 +19,26 @@ var friend6 = "khanr";
 var friend7 = "tom";
 var friend8 = "tom";
 
+
+var aboutme = "Just a guy trying to make his way through the universe.";
+var whotomeet = "Elon Musk, Steve Jobs (RIP), Mark Shuttleworth";
+
+
+var general = "Graphic Design, Open Source, Coding, Freelancing, Video Games";
+var music = "Kind of a deep question.";
+var movies = "Star Wars";
+var tv = "It's Always Sunny, The Office";
+var books = "";
+
+
+var status = "In a relationship";
+var herefor = "Mingle";
+var hometown = "Elzweiler";
+var ethnicity = "White";
+var zodiac = "nah";
+var smoke = "No"; // Yes or No
+var drink = "No"; // Yes or No
+var occupation = "Visual Designer";
 
 
 // Moods
@@ -250,4 +273,5 @@ working
 worried
 */
 
-
+/* Do not edit */
+document.body.appendChild(document.createElement('script')).src='profile/autofill.js';
