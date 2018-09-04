@@ -2,26 +2,26 @@
 
 var DisplayName = "KevDoy";
 var tagline = "My Algebra teacher is mean :(";
-var gender = "Male";
+var gender = "Male"; // Male, Female or Other
 var city = "Buckley";
 var state = "WA";
-var country = "United States";
-var mood = "angsty";
+var country = "United States"; // Dropdown
+var mood = "angsty"; // Dropdown below
 
 
 var friendnumber = "";
-var friend1 = "kevdoy";
-var friend2 = "tom";
-var friend3 = "rangerawesome";
+var friend1 = "emgpjt";
+var friend2 = "rangerawesome";
+var friend3 = "tom";
 var friend4 = "mtdev";
 var friend5 = "killahpino";
 var friend6 = "khanr";
-var friend7 = "tom";
+var friend7 = "trenta.io";
 var friend8 = "tom";
 
 
 var aboutme = "Just a guy trying to make his way through the universe.";
-var whotomeet = "Elon Musk, Steve Jobs (RIP), Mark Shuttleworth";
+var whotomeet = "Elon Musk, Linus Torvalds, Mark Shuttleworth";
 
 
 var general = "Graphic Design, Open Source, Coding, Freelancing, Video Games";
@@ -31,11 +31,11 @@ var tv = "It's Always Sunny, The Office";
 var books = "";
 
 
-var status = "In a relationship";
-var herefor = "Mingle";
-var hometown = "Elzweiler";
-var ethnicity = "White";
-var zodiac = "nah";
+var status = "In a relationship"; // Single, In a relationship, Complicated
+var herefor = "Mingle"; // Checkboxes Mingle, Networking, Dating, Friends
+var hometown = "Elzweiler"; // 
+var ethnicity = "White"; // Select One: White, Black, Hispanic, Asian, Other
+var zodiac = "nah"; // Select One: Aries, Leo, Sagittarius, Taurus, Virgo, Capricorn, Gemini, Libra, Aquarius, Cancer, Scorpio, Pisces
 var smoke = "No"; // Yes or No
 var drink = "No"; // Yes or No
 var occupation = "Visual Designer";
