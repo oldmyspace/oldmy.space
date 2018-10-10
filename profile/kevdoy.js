@@ -1,7 +1,7 @@
 // JavaScript Document
 
 var DisplayName = "KevDoy";
-var tagline = "My Algebra teacher is mean :(";
+var tagline = "Limitless ideas, limited time.";
 var gender = "Male"; // Male, Female or Other
 var city = "Buckley";
 var state = "WA";
@@ -9,7 +9,7 @@ var country = "United States"; // Dropdown
 var mood = "angsty"; // Dropdown below
 
 
-var friendnumber = "";
+var friendnumber = "20";
 var friend1 = "emgpjt";
 var friend2 = "rangerawesome";
 var friend3 = "tom";
@@ -21,7 +21,7 @@ var friend8 = "tom";
 
 
 var aboutme = "Just a guy trying to make his way through the universe.";
-var whotomeet = "Elon Musk, Linus Torvalds, Mark Shuttleworth";
+var whotomeet = "I guess it would be cool to meet Gary Vee and Elon Musk";
 
 
 var general = "Graphic Design, Open Source, Coding, Freelancing, Video Games";
